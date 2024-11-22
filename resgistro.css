@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+    background-color: #ffffff;
+
+}
+
+/* Estilos del logo */
+.logo {
+    font-family: 'Chewy', cursive;/*tipo de letra*/
+    font-size: 30px;/*tamaño de letra*/
+    color: #ef94ca;/*color de la letra*/
+    text-shadow: 1px 1px #ffe5ec;/*sombra a la letra*/
+}
+
+.barra {
+    display: flex;/*sirve para volverla flexible, alterar sus dimenciones y ocupar el espacio disponible*/
+    justify-content: space-between;/*sirve para distribuir el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
+    align-items: center;/*sirve para alinear nuestros elementos flexibles, en filas si flex-direction se encuentra en row ó en columnas si flex-direction se encuentra en column*/
+    padding: 10px 20px;/*sirve para crear el espacio o area alrededor de un elemento*/
+    background-color: #ffe5ec;/*color de fondo*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*sirve para dar efectos de sombra alrededor del marco de un elemento*/
+    
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /*sirve para crear un espaciado coherente entre los elementos de un diseño de cuadrícula*/
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ef94ca;
+}
+
+
+h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    font-family:'Chewy', cursive;
+}
+
+form{
+    margin: 20%;
+    padding: 30px 0px;
+    max-width: 350px;/*se mantiene con ese tamaño en toda pantalla*/
+    margin: 50px auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #ffe5ec;
+    /*margin-top: 50px;*/
+}
+
+.form_input{
+    padding: 6px 20px;
+}
+
+input, select{
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 6px 6px;
+    border: none;
+    border: 1px solid #ffe5ec;
+    border-radius: 5px;
+    color: #2b2b2b;
+}
+
+.sumit{
+    padding: 6px 20px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #ef94ca;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #d76aa9;
+   
+}
+
+/*/textarea{
+    min-width: 100%;
+    resize: none; no deja que el textarea cambie de tamaño y rompa nuestro diseño
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}*/

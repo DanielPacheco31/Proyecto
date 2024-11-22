@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMAS - Registrarse</title>
+    <link href="resgistro.css" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="barra">
+        <div class="logo">FORMAS</div>
+        <div class="menu">
+            <a href="InicioSesion.html">Inicia Sesion</a>
+        </div>
+    </nav>
+
+    <form>
+        <h2>Crea tu Cuenta</h2>
+        <div class="form_input">
+            <label for="input-nombre">
+                <input type="text" placeholder="Nombre y Apellido"  id="input-nombre">
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label for="input-email">
+                <input type="email" placeholder="email @" id="input-email">
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label for="input-fechaNacimiento"> Fecha de nacimiento
+                <input type="date" placeholder="Fecha de Nacimiento" id="fechaNacimiento">
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label for="genero">Género</label>
+            <select id="genero">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+
+        <div class="form_input">
+            <label for="especialidad">Especialidad</label>
+            <select id="especialidad">
+                <option value="Barberia">Barberia</option>
+                <option value="Peluqueria">Peluqueria</option>
+                <option value="Estetica">Spa y Estetica</option>
+                <option value="Manicura">Manicura</option>
+                <option value="lashista">lashista</option>
+                <option value="Tatuajes">Tatuajes</option>
+                <option value="Fitness">Fitness</option>
+            </select>
+        </div>
+
+
+        <div class="form_input">
+            <label for="input-contraseña">
+                <input type="password" placeholder="Crea una contraseña" id="contrasena">
+            </label>
+        </div>
+
+        <div class="sumit">
+            <button type="submit">Enviar </button>
+        </div>
+
+        
+        <!--
+        <div class="form_input">
+            <label for="Mensaje">Mensaje
+                <textarea  rows="10" placeholder="ingresa la inf deseada" id="Mensaje">ingresa lo que quieras</textarea>
+            </label>
+            El readonly sirve para que se muestre la inf sin modificarla dentro de un textarea
+            El disabled sirve para desactivar el capo de texto de textarea
+            El maxlenght="140" sirve para decir el maximo de caracter en el textarea       
+        </div>-->
+    </form>    
+</body>
+</html>

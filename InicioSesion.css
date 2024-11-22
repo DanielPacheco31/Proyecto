@@ -1,0 +1,123 @@
+/*aqui los estilos del cuerpo de la pagina*/
+body {
+    margin: 0;/*sirve para el margen*/
+    font-family: 'Times New Roman', Times, serif;/*sirve para el tipo de letra*/
+    font-size: 12px;/*sirve para el tamaño de la letra*/
+    background-color: #ffffff;/*sirve para el color del fondo de la pagina*/
+}
+
+/*aqui los estilos de la barra de navegacion*/
+.barra {
+    display: flex;/*sirve para volverla flexible, alterar sus dimenciones y ocupar el espacio disponible*/
+    justify-content: space-between;/*sirve para distribuir el espacio entre y alrededor de los items flex, a lo largo del eje principal de su contenedor.*/
+    align-items: center;/*sirve para alinear nuestros elementos flexibles, en filas si flex-direction se encuentra en row ó en columnas si flex-direction se encuentra en column*/
+    padding: 10px 20px;/*sirve para crear el espacio o area alrededor de un elemento*/
+    background-color: #ffe5ec;/*color de fondo*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);/*sirve para dar efectos de sombra alrededor del marco de un elemento*/
+   
+}
+
+/*aqui los estilos del logo*/
+.logo {
+    font-family: 'Chewy', cursive;/*tipo de letra*/
+    font-size: 30px;/*tamaño de letra*/
+    color: #ef94ca;/*color de la letra*/
+    text-shadow: 1px 1px #ffe5ec;/*sombra a la letra*/
+}
+
+.menu {
+    display: flex;
+    gap: 20px; /*sirve para crear un espaciado coherente entre los elementos de un diseño de cuadrícula*/
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*aqui para cambiar el color de un elemneto cuando este el cursor sobre el elemento*/
+.menu a:hover {
+    color: #ef94ca;
+}
+
+.contenedor {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffe5ec;
+    border-radius: 10px; 
+    border: 1px solid transparent;
+}
+
+h1 {
+    font-family:'Chewy', cursive;
+    font-size: 16px;
+    color: #2b2b2b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-datos {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;/*sirve para que un elemento ocupe todo el espacio disponible y el siguiente elemento se situe por debajo*/
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+
+input {
+    width: 95%;
+    padding: 6px 6px;
+    border: 2px solid #ffe5ec;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    
+}
+
+.submit-boton {
+    background-color: #ef94ca;
+    color: #ffffff;
+    border: none;
+    padding: 6px 6px;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;/*especifica el peso o grueso de la letra*/
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.submit-boton:hover {
+    background-color: #e272b4;
+}
+
+.link-registro {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.link-registro a {
+    color: #ef94ca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-registro a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: #ffffff;
+}
+
+.buscar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-bottom: 1px solid #2b2b2b;
+}
+
+.logo {
+    font-family: 'Chewy', cursive;
+    font-size: 30px;
+    color: #ef94ca;
+    text-shadow: 1px 1px #ffe5ec;
+    font-weight: bold;
+}
+
+.botonBuscar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.botonBuscar input {
+    width: 40%;
+    padding: 8px;
+    border: 2px solid #ffe5ec;
+    border-radius: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #ef94ca;
+}
+
+.desplegable {
+    position: relative;
+}
+
+.contenido-desplegable {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #2b2b2b;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.desplegable:hover .contenido-desplegable {
+    display: block;
+}
+
+.contenido-desplegable a {
+    color: #2b2b2b;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.contenido-desplegable a:hover {
+    background-color: #ffe5ec;
+}
+
+.perfil {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.fondo-perfil img {
+    width: 70%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.foto-perfil {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.foto-perfil h1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.info-perfil {
+    margin-top: 60px;
+}
+
+.publicaciones {
+    padding: 20px;
+    text-align: center;
+}
+
+.publicacion {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.publicacion img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffe5ec;
+    color: #2b2b2b;
+    font-size: 14px;
+    margin: 2px;
+}
